@@ -28,11 +28,3 @@ def fruit(color):
 fruit('yellow')
 #Outside the function.
 print(yellow + 'is the fruit color')
-
-
-#EXAMPLE 5
-def water(rush_rate, volume):
-    fetch = rush_rate + volume
-    print('this is the ' + str(fetch))
-fetch = 600
-water(50, 30)
